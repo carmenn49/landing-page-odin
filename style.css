@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+div {
+    padding: 4rem 8rem;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #F9FAF8;
+    color: #F9FAF8;
+}
+
+.darkblue {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+div > h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 4rem ;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.nav li a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.first-column {
+    flex: 1;
+}
+
+.first-column p {
+    margin: 1rem 0;
+}
+
+.first-column button {
+    padding: 0.5rem 1rem;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.first-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.white {
+    background-color: #F9FAF8;
+    color: #1F2937;
+
+}
+
+.random-info {
+    text-align: center;
+    padding: 3rem 8rem;
+}
+
+.card-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.card-item {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding: 0 1.5rem;
+    
+}
+
+.square {
+    width: 25px;
+    aspect-ratio: 1 / 1;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 2rem 4rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: end;
+}
+
+
+.action-call {
+    height: 200px;
+    width: auto;
+    background-color:#3882f6;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #F9FAF8;
+    margin: 4rem 8rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.action-call > button {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+    margin: 2rem 0; 
+    padding: 2rem 4rem;
+}
