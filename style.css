@@ -2,48 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-div {
-    padding: 4rem 8rem;
 }
 
 body {
     font-family: Roboto;
-    background-color: #F9FAF8;
-    color: #F9FAF8;
 }
 
 .darkblue {
-    background-color: #1F2937;
+    background-color: #FAEDCD;
+    padding: 2rem 4rem;
+    margin: auto;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #BC6C25;
 }
 
-div > h1 {
-    font-size: 48px;
+div>h1 {
+    font-size: 56px;
     font-weight: 900;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
-    padding: 2rem 4rem ;
+    padding: 1rem 2rem;
 }
 
 .nav {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     font-size: 18px;
-    color: #e5e7eb;
 }
 
 .nav li a {
-    color: #F9FAF8;
+    color: #BC6C25;
     text-decoration: none;
 }
 
@@ -55,21 +52,29 @@ div > h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2rem 4rem;
+    color: #606C38;
+    padding: 3rem 12rem;
 }
 
 .first-column {
     flex: 1;
+    padding: 1rem 7rem;
+    margin: 0 auto;
+}
+
+.first-column h1 {
+    padding: 0.5rem 0rem;
 }
 
 .first-column p {
-    margin: 1rem 0;
+    padding: 1rem 0rem;
 }
 
 .first-column button {
-    padding: 0.5rem 1rem;
-    background-color: #3882f6;
-    color: white;
+    padding: 0.5rem 2rem;
+    margin: auto;
+    background-color: #CCD5AE;
+    color: #606C38;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -82,73 +87,82 @@ div > h1 {
 }
 
 .white {
-    background-color: #F9FAF8;
-    color: #1F2937;
-
+    background-color: #D4A373;
+    color: #FAEDCD;
+    padding: 1rem 4rem;
+    margin: auto;
 }
 
 .random-info {
     text-align: center;
-    padding: 3rem 8rem;
 }
 
-.card-list{
+.random-info h1 {
+    padding: 2rem 4rem;
+}
+
+.card-list {
+    padding: 4rem 0rem;
+    margin: auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
-    padding: 0;
-    margin-top: 2rem;
 }
 
 .card-item {
     text-align: center;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
     height: 300px;
-    padding: 0 1.5rem;
-    
+}
+
+.card-item p {
+    padding: 1rem 4rem;
 }
 
 .square {
-    width: 25px;
+    width: 250px;
     aspect-ratio: 1 / 1;
-    border: 4px solid #3882f6;
-    border-radius: 20px;
+    border: 5px solid #FAEDCD;
+    border-radius: 30px;
     margin-bottom: 1rem;
 }
 
 .quote-section {
-    background-color: #e5e7eb;
-    padding: 2rem 4rem;
+    background-color: #FAEDCD;
+    padding: 10rem 14rem;
+    margin: 0 auto;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    color: #606C38;
 }
 
 .author {
     font-size: 24px;
-    color: #1F2937;
+    color: #606C38;
     font-weight: 900;
     text-align: end;
 }
 
 
-.action-call {
-    height: 200px;
-    width: auto;
-    background-color:#3882f6;
+.cta {
+    background-color: #606C38;
+    padding: 4rem 8rem;
+    margin: 10rem 4rem;
     display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-wrap: wrap;
-    color: #F9FAF8;
-    margin: 4rem 8rem;
-    padding: 1rem 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 10rem;
+    color: #FAEDCD;
     border-radius: 10px;
     font-size: 18px;
 }
@@ -158,19 +172,20 @@ div > h1 {
     font-size: 24px;
 }
 
-.action-call > button {
+.cta>button {
     background-color: transparent;
-    color: #F9FAF8;
-    border: 2px solid #F9FAF8;
-    border-radius: 5px;
+    color: #FAEDCD;
+    border: 3px solid #FAEDCD;
+    border-radius: 15px;
     padding: 1rem 2rem;
     font-weight: bold;
     cursor: pointer;
 }
 
 footer {
-    background-color: #1F2937;
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    padding: 3rem 6rem;
     font-size: 18px;
     text-align: center;
-    padding: 2rem 4rem;
 }
